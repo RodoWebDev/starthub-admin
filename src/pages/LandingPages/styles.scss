@@ -1,0 +1,56 @@
+.landing_pages_container {
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    &.btn_section {
+      justify-content: space-between;
+    }
+    &.list {
+      margin-top: 30px;
+    }
+    input, .MuiOutlinedInput-input {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    legend {
+      display: none;
+    }
+    .saveBtn {
+      background: #4caf50;
+    }
+  }
+  .pages_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .pages {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      legend {
+        display: none;
+      }
+    }
+  }
+  .sections_container {
+    border-radius: 10px;
+    background: #c3ebff;
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    .title {
+      font-size: 25px;
+      font-weight: bold;
+      margin: 0;
+    }
+    &:last-child {
+      margin: 0;
+    }
+    .saveBtn {
+      background: #4caf50;
+    }
+  }
+}
